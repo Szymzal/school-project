@@ -61,25 +61,24 @@ body {
 #boxspecial table tr td {
     width: 25px;
     height: 25px;
-    background-color: black;
 }
 
-#boxspecial table tr .hidden {
+.hidden {
     visibility: hidden;
 }
 
-#boxspecial table tr .green {
+.green {
     background-color: green;
 }
 
-#boxspecial table tr .red {
+.red {
     background-color: red;
 }
 
-#boxspecial table tr .orange {
+.orange {
     background-color: orange;
 }
 
-#boxspecial table tr .blue {
+.blue {
     background-color: blue;
 }
