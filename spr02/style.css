@@ -67,3 +67,19 @@ body {
 #boxspecial table tr .hidden {
     visibility: hidden;
 }
+
+#boxspecial table tr .green {
+    background-color: green;
+}
+
+#boxspecial table tr .red {
+    background-color: red;
+}
+
+#boxspecial table tr .orange {
+    background-color: orange;
+}
+
+#boxspecial table tr .blue {
+    background-color: blue;
+}
