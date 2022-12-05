@@ -1,0 +1,125 @@
+body {
+    background-color: black;
+}
+
+.box {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+#box1 {
+    justify-content: flex-start;
+}
+
+#box2 table tr td,
+#box6 table tr td,
+#box8 table tr td,
+#box9 table tr td {
+    background-color: black;
+    width: 40px;
+    height: 40px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+#box3 h1, 
+#box12 h1, 
+#box13 h1, 
+#box15 h1 {
+    font-size: 100px;
+}
+
+#box4 h1, #box5 h1 {
+    font-size: 75px;
+    font-family: Arial;
+}
+
+#box7 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}
+
+#box7 div div {
+    background-color: white;
+    width: 50px;
+    height: 50px;
+}
+
+#box11 a {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+#box10 img,
+#box14 a img,
+#box16 img {
+    width: 100px;
+    height: 100px;
+}
+
+#box16 {
+    background-color: green;
+}
+
+.circles div {
+    width: 100px;
+    height: 100px;
+}
+
+.circles div div {
+    width: 75px;
+    height: 75px;
+}
+
+.circles div div div {
+    width: 50px;
+    height: 50px;
+}
+
+.circles div div div div {
+    width: 25px;
+    height: 25px;
+}
+
+.even,
+.odd {
+    display: flex;
+    border-radius: 75px;
+}
+
+#box17 .even,
+#box17 .odd {
+    justify-content: center;
+    align-items: center;
+}
+
+.even {
+    background-color: black;
+}
+
+.odd {
+    background-color: white;
+}
+
+#box18 .even,
+#box18 .odd {
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#box19 .even,
+#box19 .odd {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
